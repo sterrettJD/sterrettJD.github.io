@@ -7,6 +7,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: Sterrett_CV_23_10.pdf
+        text: CV
 
 
 format:
