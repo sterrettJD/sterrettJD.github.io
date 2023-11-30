@@ -1,0 +1,32 @@
+
+# About Me
+
+I'm currently a PhD student (co-advised by Cathy Lozupone and Chris Lowry) in the Integrative Physiology and Interdisciplinary Quantitative (IQ) Biology programs at the University of Colorado Boulder.
+
+I'm interested in microbial community ecology, host-microbiome interactions, and drivers of resilience (both in microbial communities and in humans).
+
+
+My research focuses on gut microbiome multi-omics integration, particularly host-microbiome dual transcriptomics data, with applications for studying the role of Helicobacter species as pathobionts influencing the development of colitis following psychosocial stress.
+
+
+In the IQ Biology program, I was fortunate enough to spend the '21-'22 academic year rotating with Cathy Lozupone, Noah Fierer, and Nichole Reisdorph, where I worked on projects regarding microbiome networks, identifying metabolic pathways in metagenomic datasets, and integrating metabolomics and microbiome data.
+
+I also completed a team rotation project co-advised by Luke Evans, Maggie Stanislawski, and Chris Gignoux, where we constructed poly-omic risk scores to predict inflammatory bowel disease diagnosis with a transparent and interpretable framework using data from the Human Microbiome Project 2.
+				
+Prior to starting my PhD, I was a MS student in Chris Lowry's Behavioral Neuroendocrinology Lab at CU Boulder. In the Lowry Lab, I studied the impacts of microbial exposure on mood affective and stress-related disorders. Specifically, I'm interested in the effects of diet and the built environment on host microbiomes, and I'm interested in developing multi-omics approaches to characterizing changes to microbial communities and the immune system in response to psychosocial stress.
+
+
+Before moving to Boulder in 2020, I completed my BS in Nutrition at East Tennessee State University, so I like to think about these questions in the context of diet and lifestyle interventions. 
+
+Outside of the lab, I pursue ultra-distance running and cycling. Because of my combined interests in nutrition, endurance exercise, and stress physiology, I enjoy talking about training/coaching philosophy and am open to future research on these topics!
+
+
+# Recent projects
+- [Poly-omic risk scores](https://www.biorxiv.org/content/10.1101/2022.09.14.508056v1) predict inflammatory bowel disease diagnosis (IQ Bio team rotation with Luke Evans, Maggie Stanislawski, and Chris Gignoux; other students include Chris Arehart, Ruth Quispe-Pilco, and Rosie Garris)
+- [SCNIC](https://onlinelibrary.wiley.com/doi/10.1111/1755-0998.13704): Sparse Correlation Network Analysis for Compositional Data (IQ Bio rotation with Cathy Lozupone)
+- [A Metagenomic Investigation](https://journals.asm.org/doi/10.1128/msystems.00651-22) of Spatial and Temporal Changes in Sewage Microbiomes across a University Campus
+- [The Influence of the Microbiota on Brain Structure and Function](https://link.springer.com/chapter/10.1007/978-3-030-91051-8_10): Implications for Stress-Related Neuropsychiatric Disorders - A review chapter in Evolution, Biodiversity and a Reassessment of the Hygiene Hypothesis
+- [Modulation](/GT-micro-metabo.pptx) of green tea compound absorption and neurotransmitter concentrations by the gut microbiome (IQ Bio rotation with Nichole Reisdorph)
+- [Interactive Microbial Ecology Exploration](https://sterrettjd.github.io/CSCI-6118-Project/): Jupyter Book for a Python tutorial on investigating microbial communities
+- [Nicotine](/Nicotine-microbiome-rotation-talk.pptx) metabolism genes in the oral metagenomes of nicotine users vs non-users (IQ Bio rotation with Noah Fierer)
+- [Characterization](https://www.wjgnet.com/1007-9327/full/v27/i33/5575.htm) of gut microbiome and metabolome in Helicobacter pylori patients in an underprivileged community in the United States
