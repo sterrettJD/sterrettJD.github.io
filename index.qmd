@@ -1,22 +1,19 @@
+## Who is John?
+**I'm a community-oriented, interdisciplinary scientist with a passion for studying and building resilient systems.**
 
-# About Me
+Professionally, this manifests through using computational methods to study the **ecology of the gut microbiome** and how **psychological stress interacts with physiology**. I build tools to process and statistically model high-dimensional "-omics" data, with a focus on the **gut-brain axis**. Generally, I identify as an ecophysiologist existing at the intersection of ecology, genetics, neuroscience, and stress physiology, and I find myself working as a software developer, bioinformatician, and statistician.
 
-## Who am I?
-I'm a community-oriented, interdisciplinary scientist with a passion for studying and building resilient systems. 
+I gravitate toward **collaborative projects** (where I can help someone else develop the best tools to answer their biological questions) and **mentoring/teaching**, as I see these as two of the most direct ways I can do good.
 
-Professionally, this manifests through using computational biology methods to study the ecology of the gut microbiome and how psychological stress affects physiology (and vice versa). I build tools to process and statistically model high-dimensional "-omics" data, with a focus on the gut-brain axis. Generally, I identify as an ecophysiologist existing somewhere at the intersection of ecology, genetics, neuroscience, and stress physiology, and I find myself working as a software developer, bioinformatician, and statistician.
-
-I gravitate toward collaborative projects where I can help someone else develop the best tools to answer their biological questsions, as well as active mentoring/teaching, which I see as one of the most direct ways I can do good.
-
-From a non-professional perspective, I like to spend time outside with friends, particularly via ultra-distance trail running and cycling. Music is a massive part of my life, as I have played a variety of instruments (particularly trombone and banjo) for many years. I'm passionate about building community and support networks for myself and those around me, which I often find myself doing through cooking, music, and sport.
+From a non-professional perspective, I like to explore the areas around me, particularly via ultra-distance trail running and cycling. Music is a large part of my life, as I have played a variety of instruments (with a focus on trombone and banjo) for many years. I'm passionate about building community and support networks for myself and those around me, which I often find myself doing through cooking, music, and sport.
 
 
 ## Professional activities
-I'm a PhD candidate in the Interdisciplinary Quantitative Biology program at the University of Colorado Boulder, housed by the Department of Integrative Physiology. I'm co-advised by Cathy Lozupone and Chris Lowry.
+I'm a **PhD candidate in the Interdisciplinary Quantitative Biology** program at the University of Colorado Boulder, housed by the Department of Integrative Physiology. I'm co-advised by Cathy Lozupone and Chris Lowry.
 
 I'm interested in microbial community ecology, host-microbiome interactions, and drivers of resilience (both in microbial communities and in humans).
 
-My research focuses on gut microbiome multi-omics integration, particularly host-microbiome dual transcriptomics data, with applications for studying the role of Helicobacter species as pathobionts influencing the development of colitis following psychosocial stress. I'm very interested in causal inference in high-dimensional datasets.
+My research focuses on gut microbiome **multi-omics integration**, particularly host-microbiome dual transcriptomics data, with applications for studying the role of Helicobacter species as pathobionts influencing the development of colitis following psychosocial stress. I'm very interested in **causal inference in high-dimensional datasets**, compositional data analysis, biologically-informed statistical modeling, and sometimes machine learning if it's the appropriate tool for the job. 
 
 ## Background
 I grew up in rural Northwest Tennessee, the land of corn and soy. I recieved my BS in Nutrition at East Tennessee State University, despite nearly majoring in music. At ETSU, I worked in Dr. Andy Clark's Nutritional Biochemistry Lab, which was my introduction to microbiome research.
