@@ -9,10 +9,16 @@ website:
         text: Home
       - href: Sterrett_CV_23_10.pdf
         text: CV
-
+    tools:
+      - icon: github
+        menu:
+          - text: My GitHub
+            url:  https://github.com/sterrettJD/
+          - text: Site Repo
+            url:  https://github.com/sterrettJD/sterrettJD.github.io
 
 format:
   html:
-    theme: cosmo
+    theme: sandstone #morph,sandstone,yeti
     css: styles.css
     toc: true
