@@ -19,6 +19,6 @@ website:
 
 format:
   html:
-    theme: sandstone #morph,sandstone,yeti
+    theme: sandstone 
     css: styles.css
     toc: true
