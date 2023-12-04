@@ -9,6 +9,10 @@ website:
         text: Home
       - href: Sterrett_CV_23_10.pdf
         text: CV
+      - text: Educational Resources
+        menu:
+        - text: Using Snakemake on Clusters
+          url: https://sterrettjd.github.io/Effective-Snakemake-HPC
     tools:
       - icon: github
         menu:
