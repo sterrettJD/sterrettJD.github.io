@@ -1,5 +1,5 @@
 ---
-title: "Trail of Fears '23"
+title: "Trail of Fears 2023 race report"
 ---
 
 ## Summary
@@ -11,7 +11,7 @@ This race is really special to me, as it has a one-of-a-kind community and was m
 
 # The race
 ## History
-Trail of Fears is the longest continuously running backyard ultra in the world. As I understand the lore, Josh Holmes (the race director) is good friends with Laz (who started the backyard format), and Josh started this race in his hometown (Jackson, TN) shortly after Laz's silly "invention". Laz didn't hold his backyard ultra one year, so Josh has snagged the title of "longest continuously running".
+Trail of Fears is the longest continuously running backyard ultra in the world. As I understand the lore, [Josh Holmes](https://www.instagram.com/joshuaholmes/) (the race director) is good friends with Laz (who started the backyard format), and Josh started this race in his hometown (Jackson, TN) shortly after Laz's silly "invention". Laz didn't hold his backyard ultra one year, so Josh has snagged the title of "longest continuously running".
 
 ## Format
 The backyard ultra format is as follows:
@@ -91,7 +91,7 @@ I knew it was going to rain and rain hard during the afternoon. Thunder and ligh
 ## Chest thongs in the night
 It rained for 2 or 3 hours, with times of thunder/lightning, really nothing too bad. I ran a slightly faster lap right before sundown then used the extra time to towel off, change into dry clothes, and get settled with my night running gear. Taking inspiration from the Tour de France, one tradition at ToF is that the first person to finish each lap wears the relfective yellow "chong" (another portmanteau, chest + thong) on the next lap. Some people avoid the chong (and will wait at the finish line for someone else to pass them so they don't have to wear it), but I think it's fun. After this "fast lap", I took the chong, which I wore every lap for the rest of the race. 
 
-Early in the day, Lindsay Phenix (yet another kind and supportive badass, who has outright won this race before and was the women's winner this year, [also she's a coach if you're looking for one](https://www.trailrun.coach/runcoach-lindsayphenix)!) was saying that she saw me show up in jorts and thought I would be racing in them. I jokingly said I would pull them out once the sun sets and the mind games start. During my post-rain outfit change, I decided to honor my word, and I threw on the jorts "for a lap", but the poclets were working for me, and I ended up wearing them for the rest of the race. I really kept Courtney Dauwalter's priority list in mind:
+Early in the day, Lindsay Phenix (yet another kind and supportive badass, who has outright won this race before and was the women's winner this year, [also she's a coach if you're looking for one](https://www.trailrun.coach/runcoach-lindsayphenix)!) was saying that she saw me show up in jorts and thought I would be racing in them. I jokingly said I would pull them out once the sun sets and the mind games start. During my post-rain outfit change, I decided to honor my word, and I threw on the jorts "for a lap", but the pockets were working for me, and I ended up wearing them for the rest of the race. I really kept Courtney Dauwalter's priority list in mind:
 
   1. Look good
   2. Feel good
@@ -127,7 +127,7 @@ On that 21st lap, around mile 85, my foot slipped off of a slick root, and I rol
 
 Zack was gone, and David and I went out together. For the first time in a few laps, we were running together, but we didn't really say much. David had been hurting for a while. I can tell he's a tough MF. I tried to put that 1-2 min gap on him, like I'd been doing, but for the first time it didn't stick. I started hobbling the downhills, even walking some of them due to the ankle pain, and he passed me. He asked what was going on, and I told him. I think he said something really nice as he put his gap on me. I don't really remember, I was working to hold back tears at that point, both from the pain and worrying that such a good day (I still felt really strong) would be shut down by something as silly as a wet root.
 
-This lap had some of the most excruciating physical pain I've ever been in. During the back half of the lap ("the bad woods"), I was saying (yelling) a lot of explatives on anything downhill and had tears rolling down my face. I couldn't really stop to massage it and address issues because I had to keep the pace up to finish the lap on time. This is when the mantras came in helpful. I tried not to fight the pain; I needed to embrace it and let it wash over me, and eventually things would change. Either I wouldn't finish a lap on time, or it would get better, but I had to keep doing my job. I took a lot of inspiration from having seen friends, including Zack, David, Lindsay, and Christian, put themselves through these dark places recently. 
+This lap had some of the most excruciating physical pain I've ever been in. During the back half of the lap ("the bad woods"), I was saying (yelling) a lot of expletives on anything downhill and had tears rolling down my face. I couldn't really stop to massage it and address issues because I had to keep the pace up to finish the lap on time. This is when the mantras came in helpful. I tried not to fight the pain; I needed to embrace it and let it wash over me, and eventually things would change. Either I wouldn't finish a lap on time, or it would get better, but I had to keep doing my job. I took a lot of inspiration from having seen friends, including Zack, David, Lindsay, and Christian, put themselves through these dark places recently. 
 
 I put on the most aggressive playlist I have and hunkered down in the cave deeper than I've ever been before. This lap also corresponded with my double-dose of caffeine, so I was able to use caffeine to numb myself a bit. I finished that lap with ~3 min to spare, my slowest lap du jour by over 3 min.
 
@@ -160,6 +160,6 @@ When I started running in high school, it was to quiet my brain. Now, it's morph
 # Concluding thoughts
 The first time I ran this race, I was calling Josh "Mr. Holmes", and he was running much farther than me. Now I call him "Josh", and sometimes I can run farther than him, but only if I bring some Little Debbie Christmas Tree Cakes for his enjoyment. This day meant a lot to me, and the support I've had before, during, and after means the world to me.
 
-If you made it this far, thanks for reading :)
+If you made it this far, thanks for reading :) If you have thoughts/critiques regarding this report or me as a person, please open an issue on GitHub or email me, and it will be addressed or maybe not.
 
 ![Trophy + Morgan](../pictures/tof_trophy.jpeg)
