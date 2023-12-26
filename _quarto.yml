@@ -7,7 +7,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: Sterrett_CV_23_10.pdf
+      - href: Sterrett_CV.pdf
         text: CV
       - text: Educational Resources
         menu:
