@@ -17,6 +17,8 @@ website:
         menu:
         - text: Trail of Fears '23
           url: race_reports/trail_of_fears_23.html
+        - text: Vol State 500k '24 (DNF)
+          url: race_reports/vol_state_500k_24_dnf.html
     tools:
       - icon: github
         menu:
