@@ -1,9 +1,31 @@
 ## Who is John?
 **I'm a community-oriented, interdisciplinary scientist with a passion for studying and building resilient systems.**
 
-Professionally, this manifests through using computational methods to study the **ecology of the gut microbiome** and how **psychological stress interacts with physiology**. I build tools to process and statistically model high-dimensional "-omics" data, with a focus on the **gut-brain axis**. Generally, I identify as an ecophysiologist existing at the intersection of ecology, genetics, neuroscience, and stress physiology, and I find myself working as a software developer, bioinformatician, and statistician.
+
+**Questions that interest me:**
+
+- How do biological systems respond to stress?
+- How do we infer causality in high-dimensional and compositional biological datasets (-omics data)?
+- How should we collect and efficiently process terabytes of relevant genetic sequencing data on a regular basis?
+
+**Fields/tools I like:**
+
+- statistical ecology and genetics
+- stress physiology
+- causal inference
+- ontologies and knowledge graphs
+- sometimes machine learning (when the time is right)
+
+
+**What I do:** 
+
+I build software for **efficient bioinformatic processing** and **biologically-inspired statistical modeling** of high-dimensional and compositional "-omics" data (e.g., metagenomics, metatranscriptomics, metabolomics). These projects often focus on **ecology of the gut microbiome**, **host-microbe interactions** and the **gut-brain axis**. 
 
 I gravitate toward **collaborative projects** (where I can help someone else develop the best tools to answer their biological questions) and **mentoring/teaching**, as I see these as two of the most direct ways I can do good.
+
+
+
+**In other contexts:**
 
 From a non-professional perspective, I like to explore the areas around me, particularly via ultra-distance trail running and cycling. Music is a large part of my life, as I have played a variety of instruments (with a focus on trombone and banjo) for many years. I'm passionate about building community and support networks for myself and those around me, which I often find myself doing through cooking, music, and sport.
 
