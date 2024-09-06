@@ -7,8 +7,10 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: Sterrett_resume.pdf
+        text: Resume
       - href: Sterrett_CV.pdf
-        text: CV
+        text: Academic CV
       - text: Educational Resources
         menu:
         - text: Using Snakemake on Clusters
