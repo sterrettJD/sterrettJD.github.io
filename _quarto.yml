@@ -15,6 +15,8 @@ website:
         menu:
         - text: Using Snakemake on Clusters
           url: https://sterrettjd.github.io/Effective-Snakemake-HPC
+        - text: Jornet microbiome analysis
+          url: Edu/Kilian_microbiome.html
       - text: Race Reports
         menu:
         - text: Trail of Fears '23
