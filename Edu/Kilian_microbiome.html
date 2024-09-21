@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Vol State 500k 2024 (DNF) race report – John Sterrett</title>
+<title>Kilian Jornet’s Gut Microbiome: a case study in how to not analyze/publish microbiome data – John Sterrett</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -161,15 +161,35 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#starting-my-race" id="toc-starting-my-race" class="nav-link active" data-scroll-target="#starting-my-race">Starting my race</a></li>
-  <li><a href="#ending-my-race" id="toc-ending-my-race" class="nav-link" data-scroll-target="#ending-my-race">Ending my race</a>
+  <li><a href="#the-paper" id="toc-the-paper" class="nav-link active" data-scroll-target="#the-paper">The paper</a>
   <ul class="collapse">
-  <li><a href="#disrupted-expectations" id="toc-disrupted-expectations" class="nav-link" data-scroll-target="#disrupted-expectations">Disrupted expectations</a></li>
-  <li><a href="#on-suffering-and-what-i-want-from-running" id="toc-on-suffering-and-what-i-want-from-running" class="nav-link" data-scroll-target="#on-suffering-and-what-i-want-from-running">On suffering and what I want from running</a></li>
-  <li><a href="#how-much-should-a-race-align-with-your-values" id="toc-how-much-should-a-race-align-with-your-values" class="nav-link" data-scroll-target="#how-much-should-a-race-align-with-your-values">How much should a race align with your values?</a></li>
-  <li><a href="#death-of-an-ego" id="toc-death-of-an-ego" class="nav-link" data-scroll-target="#death-of-an-ego">Death of an ego</a></li>
+  <li><a href="#my-goal" id="toc-my-goal" class="nav-link" data-scroll-target="#my-goal">My goal</a></li>
   </ul></li>
-  <li><a href="#the-race" id="toc-the-race" class="nav-link" data-scroll-target="#the-race">The race</a></li>
+  <li><a href="#issues-with-the-paper" id="toc-issues-with-the-paper" class="nav-link" data-scroll-target="#issues-with-the-paper">Issues with the paper</a>
+  <ul class="collapse">
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
+  <li><a href="#the-paper-does-not-meet-minimum-information-of-reporting-human-microbiome-data" id="toc-the-paper-does-not-meet-minimum-information-of-reporting-human-microbiome-data" class="nav-link" data-scroll-target="#the-paper-does-not-meet-minimum-information-of-reporting-human-microbiome-data">1. The paper does not meet minimum information of reporting human microbiome data</a></li>
+  <li><a href="#diversity-estimates-cannot-be-compared-between-samples" id="toc-diversity-estimates-cannot-be-compared-between-samples" class="nav-link" data-scroll-target="#diversity-estimates-cannot-be-compared-between-samples">2. Diversity estimates cannot be compared between samples</a>
+  <ul class="collapse">
+  <li><a href="#the-problem" id="toc-the-problem" class="nav-link" data-scroll-target="#the-problem">The problem</a></li>
+  <li><a href="#an-example" id="toc-an-example" class="nav-link" data-scroll-target="#an-example">An example</a></li>
+  <li><a href="#where-the-paper-went-wrong" id="toc-where-the-paper-went-wrong" class="nav-link" data-scroll-target="#where-the-paper-went-wrong">Where the paper went wrong</a></li>
+  </ul></li>
+  <li><a href="#diversity-estimates-cannot-be-compared-to-other-studies" id="toc-diversity-estimates-cannot-be-compared-to-other-studies" class="nav-link" data-scroll-target="#diversity-estimates-cannot-be-compared-to-other-studies">3. Diversity estimates cannot be compared to other studies</a>
+  <ul class="collapse">
+  <li><a href="#lack-of-rarefaction" id="toc-lack-of-rarefaction" class="nav-link" data-scroll-target="#lack-of-rarefaction">Lack of rarefaction</a></li>
+  <li><a href="#differences-in-sequencing-methods" id="toc-differences-in-sequencing-methods" class="nav-link" data-scroll-target="#differences-in-sequencing-methods">Differences in sequencing methods</a></li>
+  </ul></li>
+  <li><a href="#data-are-relative-abundances-but-not-visualized-as-such" id="toc-data-are-relative-abundances-but-not-visualized-as-such" class="nav-link" data-scroll-target="#data-are-relative-abundances-but-not-visualized-as-such">4. Data are relative abundances, but not visualized as such</a>
+  <ul class="collapse">
+  <li><a href="#a-sidebar---what-is-compositionality" id="toc-a-sidebar---what-is-compositionality" class="nav-link" data-scroll-target="#a-sidebar---what-is-compositionality">A sidebar - what is compositionality?</a></li>
+  <li><a href="#representation-of-compositionality-in-the-paper" id="toc-representation-of-compositionality-in-the-paper" class="nav-link" data-scroll-target="#representation-of-compositionality-in-the-paper">Representation of compositionality in the paper</a></li>
+  <li><a href="#another-complaint-about-figure-2" id="toc-another-complaint-about-figure-2" class="nav-link" data-scroll-target="#another-complaint-about-figure-2">Another complaint about figure 2</a></li>
+  </ul></li>
+  <li><a href="#results-are-not-provided-with-caveats" id="toc-results-are-not-provided-with-caveats" class="nav-link" data-scroll-target="#results-are-not-provided-with-caveats">5. Results are not provided with caveats</a></li>
+  <li><a href="#data-and-code-are-not-available-analyses-are-not-reproducible" id="toc-data-and-code-are-not-available-analyses-are-not-reproducible" class="nav-link" data-scroll-target="#data-and-code-are-not-available-analyses-are-not-reproducible">6. Data and code are not available (analyses are not reproducible)</a></li>
+  </ul></li>
+  <li><a href="#summary-1" id="toc-summary-1" class="nav-link" data-scroll-target="#summary-1">Summary</a></li>
   </ul>
 </nav>
     </div>
@@ -178,7 +198,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Vol State 500k 2024 (DNF) race report</h1>
+<h1 class="title">Kilian Jornet’s Gut Microbiome: a case study in how to not analyze/publish microbiome data</h1>
 </div>
 
 
@@ -195,53 +215,161 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><strong>NOTE:</strong> This is a live document. It is unfinished and largely unedited and will change. Don’t quote me.</p>
+<section id="the-paper" class="level1">
+<h1>The paper</h1>
+<p>On Sept 17, 2024, the Journal of Athletic Training published “The Gut Microbiota characterization of a World-Class Mountain Trail runner during a complete competition season: a case report”, where <a href="https://en.wikipedia.org/wiki/K%C3%ADlian_Jornet_Burgada">Kilian Jornet’s</a> gut microbiome was studied across the 2022 trail racing season.</p>
+<p>While this paper is interesting, it is missing crucial data/parameters that should be reported and makes strong claims that either (A) the evidence does not support, or (B) methods do not support.</p>
+<p>I don’t think that this paper should have passed peer review in its current state, and it is concerning that the Journal of Athletic Training allowed this to be published without addressing these issues.</p>
+<p>These data are certainly interesting and worthwhile, but improper analysis and reporting are not acceptable and would have been caught by most researchers with microbiome expertise. An equal burden falls on the editor/reviewers in addition to the researchers.</p>
+<section id="my-goal" class="level2">
+<h2 class="anchored" data-anchor-id="my-goal">My goal</h2>
+<p>I’ve attempted to summarize for a non-microbiome researcher (or beginner microbiome researcher) where this went wrong.</p>
+</section>
+</section>
+<section id="issues-with-the-paper" class="level1">
+<h1>Issues with the paper</h1>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<ol type="1">
+<li>The paper does not meet minimum information of reporting human microbiome data</li>
+<li>Diversity estimates cannot be compared between samples</li>
+<li>Diversity estimates cannot be compared to other studies</li>
+<li>Data are relative abundances, but not visualized as such</li>
+<li>Results are not provided with caveats</li>
+<li>Data and code are not available (analyses are not reproducible)</li>
+</ol>
+</section>
+<section id="the-paper-does-not-meet-minimum-information-of-reporting-human-microbiome-data" class="level2">
+<h2 class="anchored" data-anchor-id="the-paper-does-not-meet-minimum-information-of-reporting-human-microbiome-data">1. The paper does not meet minimum information of reporting human microbiome data</h2>
+<p>When you publish a microbiome paper, you need to report certain kinds of information. Some of these are basic, such as:</p>
+<ul>
+<li>“How were samples stored and transmitted to the lab?”
+<ul>
+<li>Microbes continue to grow/die if not properly stored. Variation in time at room temperature could affect the data (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5340865/">source</a>), but it was not mentioned.</li>
+</ul></li>
+<li>“Did the participants take antibiotics?”
+<ul>
+<li>Antibiotics will wipe out a lot of microbes in the gut. This is very relevant information, but we don’t know if “the participant” had taken antibiotics throughout the year.</li>
+</ul></li>
+<li>“What was the timeline for sample collection?”
+<ul>
+<li>This information is provided but not clear. There are 6 samples throughout the season, with 2 of those in pairs before/after races (Zegama &amp; UTMB). However, there is no detail on how long before/after races samples were taken, nor is there information on when the other samples were taken relative to the other races, such as Sierre-Zinal and the Hardrock 100.</li>
+</ul></li>
+</ul>
+<p>There are also more detailed criteria that need to be provided. Though I would expect non-microbiome researchers to request information for the previous questions, the questions require some expertise or previous knowledge. However, these are questions that any graduate student who has analyzed microbiome data would ask, such as:</p>
+<ul>
+<li>“How deeply were samples sequenced?”
+<ul>
+<li>The researchers rely on sequencing a part of the bacterial genomes to know which bacteria are present. However, if they only sequenced that part of 10 genomes, we wouldn’t consider this an accurate representation of the microbiome. Maybe they sequenced many more than that, but we don’t know.</li>
+</ul></li>
+<li>“Were chloroplast and mitochondrial reads removed?”
+<ul>
+<li>Chloroplasts (the green things in plants that make sugar from sunlight and carbon dioxide) and mitochondria (the powerhouse of the cell) also have this gene. The researchers don’t state if they considered chloroplast and mitochondrial reads in the analysis, which is important because the data on what bacteria make up the samples were presented as precents of the whole microbiome, so variation in chloroplast/mitochondria will affect the data.</li>
+</ul></li>
+<li>“What quality control steps were performed, and what were the parameters?”
+<ul>
+<li>Parameters such as the minimum genome sequence length and quality should have been reported.</li>
+</ul></li>
+<li>“What was the rarefaction depth?”
+<ul>
+<li>I’ll get into this in the next section…</li>
+</ul></li>
+</ul>
+<p>Any reviewer who has analyzed microbiome data should have asked these questions. They are all part of the checklist for minimal information that is required at most journals regularly publishing microbiome research, based on the <a href="https://www.nature.com/articles/s41591-021-01552-x">STORMS Checklist</a>. The Journal of Athletic Training should require this information if they are going to publish a microbiome that is focused on the gut microbiome.</p>
+</section>
+<section id="diversity-estimates-cannot-be-compared-between-samples" class="level2">
+<h2 class="anchored" data-anchor-id="diversity-estimates-cannot-be-compared-between-samples">2. Diversity estimates cannot be compared between samples</h2>
+<section id="the-problem" class="level3">
+<h3 class="anchored" data-anchor-id="the-problem">The problem</h3>
+<p>Measures of microbiome diversity are sensitive to how deeply a sample is sequenced. To rephrase that, if we’re counting the number of species in a sample, that is dependent on how many genomes from that sample you assess.</p>
+</section>
+<section id="an-example" class="level3">
+<h3 class="anchored" data-anchor-id="an-example">An example</h3>
+<p>Here’s a toy example of where that would be an issue. The numbers are small and exaggerated for the example.</p>
+<p>My microbiome has 100 species. The less-famous-than-Kilian-but-more-famous-than-me ultrarunner Jackson Brill has a microbiome with just 50 species.</p>
+<p>If we only look at 10 random bacteria from my microbiome (sequencing depth=10) but 50 random bacteria from Jackson’s microbiome (sequencing depth=50), the we would likely see more species in Jackson’s microbiome than mine.</p>
+<p>However, that’s because we looked at more individual bacteria. Had we looked at the same number of individual bacteria between our microbiomes, we would have likely seen that I have more species in my gut than Jackson.</p>
+<p>When we sequence genomes for microbiome analysis, we can’t control how many individual sequences we get (i.e., how many individual bacteria we look at). To address this, it is common practice to either:</p>
+<ol type="1">
+<li>Control for it statistically (doesn’t always address bias and couldn’t be done here because they didn’t do any statistical modeling, so I won’t get into this here)</li>
+<li>Throw out a random part of our data so that the samples look at a certain number of sequences (this is called <a href="https://www.biorxiv.org/content/10.1101/2023.06.23.546313v1">rarefaction</a>)
+<ul>
+<li>In our example, we would only look at a random 10 bacteria from Jackson’s microbiome, so we could compare it to mine. We could even pick random combinations of 10 microbes from Jackson’s microbiome over and over to take some of the chance out of it.</li>
+</ul></li>
+</ol>
+</section>
+<section id="where-the-paper-went-wrong" class="level3">
+<h3 class="anchored" data-anchor-id="where-the-paper-went-wrong">Where the paper went wrong</h3>
+<p>This paper does not describe any steps taken to control for differences in sequencing depth (i.e., the number of individual bacteria considered for each sample). They discuss changes in microbiome diversity over the course of the season, but we have no idea if those changes were a result of differences in sequencing depth across the different samples.</p>
+<p>Of course, the researchers might have rarefied their data to make it possible to compare samples, but they do not mention it once. If they did so, that needs to be reported both for clarity, reproducibility, and comparability to other studies.</p>
+</section>
+</section>
+<section id="diversity-estimates-cannot-be-compared-to-other-studies" class="level2">
+<h2 class="anchored" data-anchor-id="diversity-estimates-cannot-be-compared-to-other-studies">3. Diversity estimates cannot be compared to other studies</h2>
+<section id="lack-of-rarefaction" class="level3">
+<h3 class="anchored" data-anchor-id="lack-of-rarefaction">Lack of rarefaction</h3>
+<p>The researchers compare the participant’s microbiome data to other athletes from other studies. This is an unfair comparison because the data were rarefied (or not rarefied) to different depths. In <a href="https://www.nature.com/articles/s41598-022-10791-y#Sec4">one of the studies</a> that Kilian is compared to, the authors seem to mention a rarefaction depth of 10,000 reads per sample. The <a href="https://physoc.onlinelibrary.wiley.com/doi/full/10.14814/phy2.14313">other paper</a> by Grosicki et al.&nbsp;does not describe any rarefaction, so there is no basis that these data are comparable to each other.</p>
+</section>
+<section id="differences-in-sequencing-methods" class="level3">
+<h3 class="anchored" data-anchor-id="differences-in-sequencing-methods">Differences in sequencing methods</h3>
+<p>Additionally, the other studies use different genetic sequencing technology and protocols, which further make samples across studies not comparable.</p>
+</section>
+</section>
+<section id="data-are-relative-abundances-but-not-visualized-as-such" class="level2">
+<h2 class="anchored" data-anchor-id="data-are-relative-abundances-but-not-visualized-as-such">4. Data are relative abundances, but not visualized as such</h2>
+<section id="a-sidebar---what-is-compositionality" class="level3">
+<h3 class="anchored" data-anchor-id="a-sidebar---what-is-compositionality">A sidebar - what is compositionality?</h3>
+<p>All data regarding what microbes are in a sample must be considered as a percent of the whole microbiome. That means all increases to certain species could be either:</p>
+<ul>
+<li>That species increasing</li>
+</ul>
+<p>or</p>
+<ul>
+<li>The sum of all other species decreasing, which makes the original species appear to be increasing in abundance.</li>
+</ul>
+<p>Consider the red and blue bars to be the abundances of two species (red species, blue species). From the proportions, you can’t tell if red doubled or blue was halved.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Compositionality.png" class="img-fluid figure-img"></p>
+<figcaption>I picked up this nice image showing this issue from a microbiome analysis workshop at Colorado State University in 2019 (if you made this figure, please let me know who you are).</figcaption>
+</figure>
+</div>
+<p>This is a property of sequencing-based data, called compositionality. It’s a serious limitation in microbiome research, and it’s been described in many papers including the hallmark <a href="https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2017.02224/full">article</a> “Microbiome Datasets Are Compositional: And This Is Not Optional”.</p>
+</section>
+<section id="representation-of-compositionality-in-the-paper" class="level3">
+<h3 class="anchored" data-anchor-id="representation-of-compositionality-in-the-paper">Representation of compositionality in the paper</h3>
+<p>The authors mention percent relative abundance, but their visualization doesn’t represent this… I’m not sure if I can legally host a screenshot of the paper (per copyright law, especially since I’m not saying very nice things about the journal), but the bars in Figure 2 (in the paper, not shown here) should add up to the same height. This is also another component of the paper that makes me think that the data were not rarefied.</p>
+<p>Saying that microbes increase or decrease after a race assumes that the total number of microbes in the microbiome is constant, based on the data at hand, but that assumption is not mentioned.</p>
+<p>There is no mention of compositionality as a limitation in the paper.</p>
+</section>
+<section id="another-complaint-about-figure-2" class="level3">
+<h3 class="anchored" data-anchor-id="another-complaint-about-figure-2">Another complaint about figure 2</h3>
+<p>I don’t like to nitpick, but I think this matters. There’s no y-axis label on Figure 2 in the paper. The title says “GM Changes (%) Pre-Post Races”, but they are not showing change data (since there is a “pre” bar and a “post” bar), nor could they show percent change as a stacked barplot. There are no units, and the bars do not have the same height, which they should if the percents all add up to 100% (which all compositional samples should).</p>
+<p>Additionally, multiple genera (a group of closely related species) are represented by the same color in the bar plot, so it’s difficult to tell what genera are changing.</p>
+</section>
+</section>
+<section id="results-are-not-provided-with-caveats" class="level2">
+<h2 class="anchored" data-anchor-id="results-are-not-provided-with-caveats">5. Results are not provided with caveats</h2>
+<p>There are no limitations to the data described other than “This is only one athlete’s data”. The limitations section for even a well-designed study should be at least a paragraph long, given current methods in microbiome work. We’ve already discussed multiple limitations, such as the inability to compare to other studies and the relative abundances (compositionality).</p>
+<p>There are other limitations, such as the fact that they don’t know how much day-to-day variation exists in Kilian’s microbiome, so claims that certain taxa increased/decreased are not relative to what a normal increase/decrease is.</p>
+<p>Additionally, there are biological limitations to what they discuss in the discussion section. For example, there can be big differences in what microbes do in the gut, even within the same species. One strain of E. coli may be healthy in your gut, and the other could nearly kill you. The authors make a lot of claims about the biological functions of the microbes they identify, which are based on some other research, but not guaranteed or measured in these samples. Some speculation is okay, but some of the main sentences in the conclusion are about the function and pathogenicity of certain microbes, which I think takes it a bit too far. It isn’t entirely unreasonable for a case study though.</p>
+</section>
+<section id="data-and-code-are-not-available-analyses-are-not-reproducible" class="level2">
+<h2 class="anchored" data-anchor-id="data-and-code-are-not-available-analyses-are-not-reproducible">6. Data and code are not available (analyses are not reproducible)</h2>
+<p>I was talking about my qualms with this paper, and someone asked why I don’t just reanalyze their data in a way I think is correct. That is a <strong>fantastic</strong> question.</p>
+<p>I would love to reanalyze these data. It is common practice to make data and code for your analysis publicly available. Nearly every journal requires statements about data availability.</p>
+<p>However, the data are not available. Apparently, The Journal of Athletic Training does not require a data availability statement, since it’s nowhere to be found. Their analysis cannot be reproduced or altered.</p>
+<p>A caveat - I understand that Kilian may not want his exact microbiome data to be public. That’s entirely reasonable, but there should be a statement regarding patient data confidentiality.</p>
+</section>
+</section>
+<section id="summary-1" class="level1">
+<h1>Summary</h1>
+<p>I appreciate the work of the authors to put together such a case study. It is lovely that Kilian has participated in provided this fantastic data, and I’m grateful for how transparent he’s been about his training and physiology. However, to quote the paper itself:</p>
 <blockquote class="blockquote">
-<p>“Some of you may experience mild to severe sleep deprivation during this race. Make sure to keep things safe” – Carl (race director), at the Last Supper, aka the pre-race meeting (statement is approximate)</p>
+<p>Prerequisites for the successful inclusion of [gut microbiome] analyses in training control are the use of appropriate methods of analyses and proficient interpretation of results.</p>
 </blockquote>
-<section id="starting-my-race" class="level1">
-<h1>Starting my race</h1>
-<p>10 years ago, I ran my first half marathon when I was 14. I remember coming home and (in an act of naïve curiosity) googling “how far can people run” and “what are the longest races”. That day, I found out about a 314-mile footrace that passed just 2 miles from my house every summer. While I continued to live near the course, I’d go out and pass out water and Gatorade as the race went by (I didn’t do this reliably, but it happened nonetheless).</p>
-<p>This year, I decided it was my turn to make the trek. I’ve had a tumultuous ~8 year ultrarunning “career” since high school, though 4 of those years were spent injured and unable to run more than 20 miles per week. The past 4 years have been relatively smooth, with a couple of races and a larger number of self-supported ultra-distance days up in the mountains and around Boulder.</p>
-<p>Mostly, over the past few years I’ve been very drawn to trail/mountain ultras. I’ve been drawn into runs like Cruel Jewel (59 mi/15,000ft of elevation gain), 4 laps of Boulder Skyline Traverse (69 mi/27,000ft gain), and classic backcountry runs like Pawnee-Buchanan and a double crossing of the Grand Canyon (R2R2R).</p>
-<p>With these, I’ve done a few ~24 hr efforts and got ambitious about pushing into multi-day ultras. That 314-mile race that I learned about 10 years ago has been in the back of my mind for quite a while now, so with the encouragement of a few friends, I threw my name in the ring for this year’s Vol State 500k.</p>
-<p>Vol State is a 314 mile footrace on roads across Tennessee, from Missouri to Georgia, during the peak of the summer. The heat index is typically around 100F (37C) each day, and it’s so humid that nothing ever dries. People who have been around the 24+hr road ultra racing scene for any amount of time probably know it as one of Lazarus Lake’s infamous races, a journey run full of suffering.</p>
-<p>I find myself not opposed to suffering, and I think I have a decent tolerance for it. But I really didn’t know what I was getting myself into. I’ve heard many times that “Vol State is a different breed of race”, but as someone with a prefrontal cortex that still probably isn’t fully developed, I had to learn the hard way.</p>
-</section>
-<section id="ending-my-race" class="level1">
-<h1>Ending my race</h1>
-<p>I’ll have a description of how my race went below, but here’s how it ended/a reflection.</p>
-<section id="disrupted-expectations" class="level2">
-<h2 class="anchored" data-anchor-id="disrupted-expectations">Disrupted expectations</h2>
-<p>I pulled the plug at mile 104. For some reason, I expected that I’d enjoy the sleep deprivation, but that was really not the case. After the first sleep deprived night, stumbling across the shoulder of the highway, trying not to step in front of any semi trucks, I decided I really had no interest in doing that for at least 3 additional nights. I thought that the nights would be meditative, but I mostly found them troublesome, as I was slapping myself and singing trying to stay awake.</p>
-<p>I realized that this would be more of a sleep deprivation competition than a pure athletic endeavor, as you’re mostly forced to sleep during the day and run at night due to the heat. It’s also not a trail or mountain run. While that wasn’t a surprise, I thought that i’d still be able to appreciate the course, since it goes straight through the area that I grew up in.</p>
-<p>I expected to feel connected to the course as I traversed my home for the first 17 years of my life. I had drilled into my head these romantic ideas of some spiritual connection to crossing my home state. In reality, I didn’t feel very connected to the course, or the kind of running I was doing, or the idea of more sleep deprived nights. At this point, I started looking for what else I could be getting out of the race, and the only thing I could come up with was growth through discomfort and suffering.</p>
-</section>
-<section id="on-suffering-and-what-i-want-from-running" class="level2">
-<h2 class="anchored" data-anchor-id="on-suffering-and-what-i-want-from-running">On suffering and what I want from running</h2>
-<p>By now, I can suffer for a while, and I’ve suffered for a while many times. I’m not sure I’m growing much by putting myself into a controlled descent of the waterfall of discomfort. A few years ago, I would have gladly entered that descent with the goal of growing through it, but now I know there’s a lot of growth possible outside of situations that require extreme physical discomfort. I think there’s a lot of growth to come these days for me through spending a little more time slowed down, connecting with and showing up for the people in my life.</p>
-<p>Maybe I would’ve been a better person through sticking to what I signed up for? Probably. Would I be a better person from doing that at the sacrifice of other adventures that feel more connecting and spritually fulfilling? I’m not so sure.</p>
-<p>For many years, I’ve considered my ability to show up continuously through things to be one of my strengths as a runner and probably as a person. Sometimes that takes form in running by granny-gearing for hours through a low until I start feeling better, or it’s taken the form of doing 500 hours physical therapy over the course of two years while working through IT band issues. Stubbornness and grit like that are really celebrated in the ultrarunning community, and I built part of my identity around it, given that I started in the sport at such a young age. That grit’s definitely burned me in the past, and it’s burned me out of things I really loved. The ability to grind through something is a great skill to have, but it needs to be equally balanced by an ability to know when to do that and an ability to know when you should show up with malleability instead. A lot of strength comes from knowing when to not be firm all of the time.</p>
-<p>In reality, I kind of think that my relationship with running is at a point where I don’t need to seek out suffering for the sake of suffering. Maybe I just like to do fun things, and while I thought Vol State would be fun, it turned out that “fun” wasn’t the opportune word.</p>
-</section>
-<section id="how-much-should-a-race-align-with-your-values" class="level2">
-<h2 class="anchored" data-anchor-id="how-much-should-a-race-align-with-your-values">How much should a race align with your values?</h2>
-<p>If I kept going, it would be at the expense of big days with friends in the Colorado high country this summer, my early fall 100 miler plans (Mountain Lakes???), and trying to get my first Western States and Hardrock qualifiers.</p>
-<p>I think about running “shorter” races, like 50 miles, where it feels okay to trash your body without knowing why you’re doing it, since the recovery isn’t unreasonably long. But for Vol State, you spend the first few days digging your grave and then next few getting buried alive in it - and that’s not something that should be done in a cavalier manner without regards to your personal values.</p>
-<p>That just didn’t feel worth it for a race that wasn’t fun. So I pulled.</p>
-<p>I hadn’t listened to the <a href="https://swaprunning.com/">SWAP</a> podcast in a while, but I did for the first time on my drive home and David said something that really resonated, along the lines of “We shouldn’t be judged on chasing the limits of human performance but instead based on how we pursue what fulfills us in our brains.”</p>
-<p>I thought I would be really excited to test the limits of performance for myself - but you really can’t test those limits too often, and there seems to be a component where you just have to be willing to dig that grave. Some part of me thinks that has to line up with what you value as a person. I thought that I valued revisiting my old home in enough to make this worth it - and I also wanted to prove myself in this place. But I learned that I didn’t need to prove myself to the community, to Laz, or even myself.</p>
-</section>
-<section id="death-of-an-ego" class="level2">
-<h2 class="anchored" data-anchor-id="death-of-an-ego">Death of an ego</h2>
-<p>Part of your ego dies a little when you DNF, especially when a lot of your identity is rooted in a sport that hyperfocuses on grit. Today, that death feels like a healthy process of pruning a plant. I had ideas around running fast and learning how deep I could dig, and honestly some hope of impressing Laz so that maybe I can run Barkley one day. But I had to come to terms with the fact that the perseverance is something that hasn’t always served me in life and won’t always continue to benefit me. The ability to suffer isn’t that much of a virtue.</p>
-<p>I think I can prune a little perseverance and probably grow more effectively in the long run.</p>
-<p>Maybe not - maybe I’m just a baby. I don’t really care too much. Maybe the fact that I wrote this many words means that I do care a lot. There’s a lot of maybe.</p>
-</section>
-</section>
-<section id="the-race" class="level1">
-<h1>The race</h1>
-<p>To be continued…</p>
+<p>Both the authors and the journal should be held to the minimum standard of reporting on microbiome research. These standards (such as the STORMS checklist) exist to increase the likelihood of proper methods, as well as the communication of caveats.</p>
+<p>The lack of rigor in the microbiome analysis and reporting indicates a lack of thorough peer review regarding the microbiome. This may be because microbiome studies are outside the scope of the journal’s expertise. If that is the case, it is the responsibility of the journal’s editor to identify that, or to make sure the paper gets a thorough review from someone with microbiome expertise.</p>
 
 
 </section>
