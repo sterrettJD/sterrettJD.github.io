@@ -3,7 +3,7 @@ title: "Kilian Jornet's Gut Microbiome: a case study in how to not analyze/publi
 ---
 
 # The paper
-On Sept 17, 2024, the Journal of Athletic Training published "The Gut Microbiota characterization of a World-Class Mountain Trail runner during a complete competition season: a case report", where [Kilian Jornet's](https://en.wikipedia.org/wiki/K%C3%ADlian_Jornet_Burgada) gut microbiome was studied across the 2022 trail racing season.
+On Sept 17, 2024, the [Journal of Athletic Training](https://doi.org/10.4085/1062-6050-0143.24) published "The Gut Microbiota characterization of a World-Class Mountain Trail runner during a complete competition season: a case report", where [Kilian Jornet's](https://en.wikipedia.org/wiki/K%C3%ADlian_Jornet_Burgada) gut microbiome was studied across the 2022 trail racing season. 
 
 
 While this paper is interesting, it is missing crucial data/parameters that should be reported and makes strong claims that either (A) the evidence does not support, or (B) methods do not support. 
