@@ -21,7 +21,9 @@
 
 I build software for **efficient bioinformatic processing** and **biologically-inspired statistical modeling** of high-dimensional and compositional "-omics" data (e.g., metagenomics, metatranscriptomics, metabolomics). 
 
-These projects often focus on **ecology of the gut microbiome**, **host-microbe interactions** and the **gut-brain axis**. I utilize **causal inference** techniques and **machine learning**, where I prioritize analysis transparency way for actionable insights. 
+This currently supports making custom **gene/protein engineering** and custom **synthetic biology product QC** at Integrated DNA Technologies. 
+
+During my PhD, I focused on **ecology of the gut microbiome**, **host-microbe interactions** and the **gut-brain axis**. I utilize **causal inference** techniques and **machine learning**.
 
 I gravitate toward **collaborative projects** (where I can help someone else develop the best tools to answer their biological questions) and **mentoring/teaching**, as I see these as two of the most direct ways I can do good.
 
@@ -31,11 +33,6 @@ I gravitate toward **collaborative projects** (where I can help someone else dev
 
 From a non-professional perspective, I like to explore the areas around me, particularly via ultra-distance trail running, cycling, and climbing. Music is a large part of my life, as I have played a variety of instruments for many years, with a focus on Appalachian folk on the banjo and jazz trombone. I'm passionate about building community and support networks for myself and those around me, which I often find myself doing through cooking, music, and sport.
 
-
-## Professional activities
-I'm a **PhD candidate in the Interdisciplinary Quantitative Biology** program at the University of Colorado Boulder, housed by the Department of Integrative Physiology. I'm co-advised by Cathy Lozupone and Chris Lowry.
-
-My dissertation has involved development and validation of data analysis pipelines for novel approaches to studying how mammals and their gut microbiomes communicate molecularly.
 
 ## Site contents
 Using the navbar at the top of this page, you can see my resume, academic CV, educational resources, and personal writing (race reports). The GitHub icon on the top right will take you to my GitHub.
