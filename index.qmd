@@ -1,6 +1,6 @@
 ## Who is John?
-**I'm a community-oriented, interdisciplinary scientist with a passion for studying and building resilient systems.**
 
+**I'm a bioinformatics scientist with a passion for building and studying resilient systems.**
 
 **Questions that interest me:**
 
@@ -8,20 +8,20 @@
 - How do we infer causality in high-dimensional and compositional biological datasets (-omics data)?
 - How should we collect and efficiently process terabytes of relevant genetic sequencing data on a regular basis?
 
-**Fields/tools I like:**
+**Fields/tools I like to draw from:**
 
-- statistical ecology and genetics
 - causal inference
-- stress physiology
+- protein language modeling
 - ontologies and knowledge graphs
-- machine learning
+- statistical ecology and genetics
+- stress physiology
 
 
 **What I do:** 
 
 I build software for **efficient bioinformatic processing** and **biologically-inspired statistical modeling** of high-dimensional and compositional "-omics" data (e.g., metagenomics, metatranscriptomics, metabolomics). 
 
-This currently supports making custom **gene/protein engineering** and custom **synthetic biology product QC** at Integrated DNA Technologies. 
+This currently supports making custom **gene/protein engineering** and custom **synthetic biology product quality control** at Integrated DNA Technologies.
 
 During my PhD, I focused on **ecology of the gut microbiome**, **host-microbe interactions** and the **gut-brain axis**. I utilize **causal inference** techniques and **machine learning**.
 
@@ -31,8 +31,7 @@ I gravitate toward **collaborative projects** (where I can help someone else dev
 
 **In other contexts:**
 
-From a non-professional perspective, I like to explore the areas around me, particularly via ultra-distance trail running, cycling, and climbing. Music is a large part of my life, as I have played a variety of instruments for many years, with a focus on Appalachian folk on the banjo and jazz trombone. I'm passionate about building community and support networks for myself and those around me, which I often find myself doing through cooking, music, and sport.
-
+From a non-professional perspective, I like to explore the areas around me, particularly via ultra-distance trail running, cycling, and climbing. Music is a large part of my life, as I have played a variety of instruments for many years, with a focus on Appalachian folk on the banjo and jazz trombone. 
 
 ## Site contents
 Using the navbar at the top of this page, you can see my resume, academic CV, educational resources, and personal writing (race reports). The GitHub icon on the top right will take you to my GitHub.
